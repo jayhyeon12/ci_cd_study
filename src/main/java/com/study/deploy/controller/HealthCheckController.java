@@ -24,7 +24,8 @@ public class HealthCheckController {
                 Map.of(
                     "serverName", serverName,
                     "deployAddress", deployAddress,
-                    "port", port
+                    "port", port,
+                        "test", "1234"
             )
         );
     }
