@@ -22,10 +22,9 @@ public class HealthCheckController {
     public ResponseEntity<?> healthCheck() {
         return ResponseEntity.ok(
                 Map.of(
-                    "serverName", serverName,
-                    "deployAddress", deployAddress,
                     "port", port,
-                        "test", "1234"
+                    "serverName", serverName,
+                    "deployAddress", deployAddress    
             )
         );
     }
